@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formularios">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2 style="text-align: center;">Formulario Inicio de sesion</h2>
+                    <form action="Datos.html" method="get" class="forma1">
+                        Usuario: <input type="text" size="23" name="user"><br><br>
+                        Contraseña: <input type="password" name="contraseña"><br><br>
+                        <input class="formatocentro" type="submit" value="Iniciar sesión">
+                    </form>
+                    <h2>Formulario Registrarse</h2>
+                    <form action="Datos.html" method="post">
+                        <Fieldset>
+                            <legend>Registrate aquí
+                            </legend>
+                                <p> Nombre completo: <input type="text" name="nombrecompleto" size="35"></p>
+                                <fieldset class="pequeno">
+                                    <legend>Usuario:</legend><input type="text" name="user">
+                                </fieldset>
+                                <fieldset class="pequeno">
+                                    <legend>Contraseña:</legend><input type="password" name="password">
+                                </fieldset>
+                                <div class="cb">
+                                <br> Aficiones: 
+                                <select name="afi" >
+                                    <option value="NingunaSelección">Pulse para seleccionar</option>
+                                    <optgroup label="Hacer deporte">
+                                        <option value="Ciclismo">Ciclismo</option>
+                                        <option value="Natación">Natación</option>
+                                        <option value="Atletismo">Atletismo</option>
+                                        <option value="Boleyball">Boleyball</option>
+                                    </optgroup>
+                                    <optgroup label="Leer">
+                                        <option value="De Comedia">De Comedia</option>
+                                        <option value="De Ficción">De Ficción</option>
+                                        <option value="De Aventura">De Aventura</option>
+                                        <option value="De Horror">De Horror</option>
+                                    </optgroup>
+                                    <optgroup label="Jugar">
+                                        <option value="Videojuegos">Videojuegos</option>
+                                        <option value="Ajedrez">Ajedrez</option>
+                                        <option value="Billar">Billar</option>
+                                    </optgroup>
+                                    <option value="Cocinar">Cocinar</option>
+                                    <option value="Viajar">Viajar</option>
+                                </select>
+                                </div>
+                                <p>
+                                Sexo:<br>
+                                <input type="radio" name="sexo" value="Hombre">Hombre<br>
+                                <input type="radio" name="sexo" value="Mujer">Mujer<br>
+                                <input type="radio" name="sexo" value="Frecuencia">Todos los dias<br>
+                                <input type="radio" name="sexo" value="otro">No te importa<br>
+                                <br>
+                                </p>
+
+                                <p>
+                                Valoración a la pagina:<br ><br>
+                                <input type="radio" name="valo" value="1" id="">1
+                                <input type="radio" name="valo" value="2" id="">2
+                                <input type="radio" name="valo" value="3" id="">3
+                                <input type="radio" name="valo" value="4" id="">4
+                                <input type="radio" name="valo" value="5" id="">5
+                                <input type="radio" name="valo" value="6" id="">6
+                                <input type="radio" name="valo" value="7" id="">7
+                                <input type="radio" name="valo" value="8" id="">8
+                                <input type="radio" name="valo" value="9" id="">9
+                                <input type="radio" name="valo" value="10" id="">10
+                                </p>
+
+                                <p>
+                                    Deja tu comentario:<br>
+                                    <textarea name="mensaje" cols="50" rows="5"></textarea>
+                                </p>
+                                <button type="submit">Registrarse<img src="img/guardado.png" width="15"></button>
+                                <button type="reset">Borrar<img src="img/papelera.png" width="15"></button>
+                        </Fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Dani Rodríguez - S1DAW</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(174, 119, 225);
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    padding: 2%;
+    display: flex;
+}
+.header1{
+    width: 10%;
+}
+.header2{
+    width: 45%;
+}
+.header3{
+    width: 30%;
+    float: right;
+}
+#principal{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+#content{
+    width: 90%;
+    float: left;
+    
+}
+.palote{
+    font-weight: bold;
+    font-size: 34px;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    text-align:center;
+    font-size: 24px;
+    }
