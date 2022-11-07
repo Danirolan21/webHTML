@@ -32,7 +32,18 @@
                     <form action="Datos.html" method="get" class="forma1">
                         Usuario: <input type="text" size="23" name="user"><br><br>
                         Contraseña: <input type="password" name="contraseña"><br><br>
-                        <input class="formatocentro" type="submit" value="Iniciar sesión">
+                        <div>
+                            <button class="btn">Submit</button>
+                            <script>
+                                var btn = document.querySelector(".btn");
+                                var position;
+                                btn.addEventListener("mouseover", function () {
+                                    position ? (position = 0) : (position = 150);
+                                    btn.style.transform = `translate(${position}px,0px)`;
+                                    btn.style.transition = "all 0.3s ease";
+                                });
+                            </script>
+                        </div>
                     </form>
                     <h2>Formulario Registrarse</h2>
                     <form action="Datos.html" method="post">
